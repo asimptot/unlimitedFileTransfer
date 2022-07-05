@@ -14,7 +14,7 @@ driver.get("https://toffeeshare.com/")
 time.sleep(5)
 
 print('Enter your file directory: \n'
-      'ig: C:\\asd\\def\\filename.extension')
+      'for example: C:\\asd\\def\\filename.extension')
 path = input()
 
 for file in glob.glob(path):
